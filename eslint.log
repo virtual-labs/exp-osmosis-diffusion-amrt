@@ -1,0 +1,13 @@
+
+/home/runner/work/exp-osmosis-diffusion-amrt/exp-osmosis-diffusion-amrt/experiment/simulation/script.js
+  114:40  warning  'netFlowCounter' is not defined  no-undef
+  115:40  warning  'netFlowCounter' is not defined  no-undef
+  153:5   warning  'netFlowCounter' is not defined  no-undef
+  307:54  warning  'netFlowCounter' is not defined  no-undef
+
+/home/runner/work/exp-osmosis-diffusion-amrt/exp-osmosis-diffusion-amrt/experiment/simulation/simulation.js
+   96:10  warning  'timestamp' is defined but never used         no-unused-vars
+  179:21  warning  'bounced' is assigned a value but never used  no-unused-vars
+
+✖ 6 problems (0 errors, 6 warnings)
+

@@ -109,3 +109,28 @@ The rate of diffusion in a membrane is proportional to the concentration gradien
 </p>
 
 &nbsp;
+
+Fick's first law of diffusion explains the correlation between the rate at which a given material diffuses and the concentration gradient over a given distance. This law explains that the rate at which a diffusing material diffuses is proportional to the concentration gradient. This means that the rate at which the molecules will be diffusing will be faster if the difference in concentration between the two points is larger. This law is most applicable in the explanation of the movement of molecules from one point to another in the body. This law also explains that the rate at which a material diffuses depends on the diffusion coefficient (D) and the distance over which the diffusion occurs. This means that the rate at which the diffusion occurs will be lower if the distance over which the diffusion occurs is larger. Therefore, Fick’s First Law emphasises that diffusion is affected by various factors, including concentration gradient, membrane thickness, membrane surface area, and properties of diffusing molecules, all of which affect the rate of transport of substances in living organisms or physical systems.
+
+&nbsp;
+
+#### Fick’s Second Law of Diffusion
+Fick’s second law describes how concentration changes with time during diffusion:
+
+&nbsp;
+<p align="center">
+  <img src="images/5.png" title="equation" />
+  <br />
+  <i>• C = concentration of the diffusing substance<br>•	t = time<br>•	D = diffusion coefficient<br>•	x = distance<br/>
+</i>
+</p>
+
+&nbsp;
+
+Fick’s first law of diffusion discusses the rate of diffusion, while Fick’s second law of diffusion discusses non-steady diffusion, where the concentration gradient is constantly changing with time. The law states that the distribution of molecules in a system will change with time until equilibrium is reached. When a substance starts diffusing, its concentration is not evenly distributed in the given medium, but as time passes, the substance will begin to diffuse, and its concentration will decrease evenly throughout the medium until equilibrium is reached.
+
+&nbsp;
+
+### Biological Significance of Diffusion
+Diffusion is an important physiological process in living organisms. In the respiratory system, oxygen is required for respiration. The oxygen diffuses from the lungs to the bloodstream. Similarly, carbon dioxide is a waste product that diffuses from the bloodstream to the lungs for exhalation. In the tissues of the body, glucose diffuses from the blood vessels to the tissues. Similarly, waste products of metabolism also diffuse from the tissues to the blood vessels. In the body, diffusion is also important for cellular communication. In the cells, the molecules are transported from one cellular compartment to another. This is helpful for metabolic functions.
+

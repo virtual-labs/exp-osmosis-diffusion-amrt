@@ -31,19 +31,7 @@ The osmotic pressure can be mathematically expressed by the equation given by Va
 <p align="center">
   <img src="images/2.png" title="equation" />
   <br />
-  <i>
- 
-Where:
-
-•	π = Osmotic pressure
-
-•	i = Van ’t Hoff factor (number of particles produced when a solute dissolves)
-
-•	C = Molar concentration of the solute
-
-•	R = Universal gas constant
-
-•	T = Absolute temperature (in Kelvin)
+  <i> Where:<br>•	π = Osmotic pressure<br>•	i = Van ’t Hoff factor (number of particles produced when a solute dissolves)<br>•	C = Molar concentration of the solute<br>•	R = Universal gas constant<br>•	T = Absolute temperature (in Kelvin)<br/>
 
 </i>
 </p>
@@ -67,3 +55,57 @@ When a cell is placed in a solution, the direction of water movement is based on
 
 Osmosis is a crucial process in human physiological processes within the body. It helps to balance fluids within the cells and tissues of the body and ensure that cells are of normal size and shape. Osmosis also occurs in the kidneys, where it helps to ensure the reabsorption of water from the urine. This process helps to balance fluids within the body. Osmosis occurs in the cells of the intestines, helping to ensure the digestion of nutrients. Thus, osmosis is an essential process for the maintenance of fluids within blood plasma.
 
+Osmosis has several important applications in both biological and technological fields. In medical science, IV solutions are carefully formulated to be isotonic to blood plasma to avoid damage to red blood cells. Osmosis is also applied in dialysis treatments, in which waste products are removed from the blood by semipermeable filters. In plant biology, osmosis maintains turgor pressure in plant cells. Furthermore, osmosis is employed in water purification equipment such as reverse osmosis technology to clean water for human consumption.
+
+&nbsp;
+
+### Diffusion
+
+Diffusion is defined as the process by which molecules tend to move from an area of high concentration to an area of low concentration due to their random motion. The process continues until the molecules are equally distributed. At this point, equilibrium is attained. The process of diffusion can be observed in gases, fluids, and cell membranes. The process does not require energy. In the body, the process of diffusion transports small molecules such as oxygen and carbon dioxide through the cell membrane.
+
+The principle that governs the diffusion is the concentration gradient. This is the difference in the concentration of a substance between two points. Molecules always diffuse down their own gradient until equilibrium is achieved. The rate at which diffusion occurs is controlled by several factors, such as the size of the concentration gradient, temperature, surface area, membrane permeability, and the size of the diffusing molecules. Diffusion into the cell membrane is especially relevant for small nonpolar molecules like oxygen (O₂) and carbon dioxide (CO₂) that can pass through the lipid bilayer (Fig.2).
+
+
+&nbsp;
+<p align="center">
+  <img src="images/3.png" title="Diffusion" />
+  <br />
+  <i>Figure 2. Diagram illustrating the process of Diffusion.
+</i>
+</p>
+
+&nbsp;
+
+#### Types of Diffusion
+
+Diffusion is classified based on how molecules move across membranes and whether transport proteins are involved. In cell physiology and the theory of membrane transport, there are three major classifications of diffusion. This classification is necessary since different molecules have different methods of passing through the cell membrane.
+
+**Simple Diffusion:** Simple diffusion is the movement of molecules through the cell membrane, which involves the direct passage of the molecules through the cell membrane without the aid of any transport protein. Small, non-polar molecules are capable of simple diffusion, e.g., oxygen, carbon dioxide, etc.
+
+**Facilitated Diffusion:** Facilitated diffusion is a type of passive transport, which involves the movement of molecules from a region of higher concentration to a region of lower concentration with the aid of a membrane protein, e.g., channel protein or carrier protein. This type of diffusion is essential for the movement of those molecules that cannot pass through the cell membrane, e.g., glucose, ions, etc.
+
+**Channel-mediated diffusion:** It’s a special type of facilitated diffusion. In facilitated diffusion, the ions or the water molecules pass through the protein channels in the membrane. The protein channels act as pores that allow molecules to pass through the membrane quickly. Some of the channels are known as gated channels. The gates may open or close in response to a signal.
+
+&nbsp;
+
+### Mathematical Equation for Diffusion
+
+The process of diffusion can be quantitatively described by Fick’s Laws of Diffusion. The laws describe how the rate of diffusion depends on concentration gradients and other physical factors.
+
+
+#### Fick’s First Law of Diffusion
+
+The rate of diffusion in a membrane is proportional to the concentration gradient. The equation is: 
+
+&nbsp;
+<p align="center">
+  <img src="images/4.png" title="equation" />
+  <br />
+  <i>•	J = diffusion flux (amount of substance diffusing per unit area per unit time)<br>
+•	D = diffusion coefficient<br>
+•	dC/dx = concentration gradient<br>
+•	The negative sign indicates movement from a higher concentration to a lower concentration<br/>
+</i>
+</p>
+
+&nbsp;

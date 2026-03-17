@@ -1,0 +1,518 @@
+<!DOCTYPE html><html lang="en"><head>
+      <!--Google Tag Manager-->
+      <script class="gtm">
+        var dataLayer = [{
+        'labName': 'Virtual Lab',
+        'discipline': 'Test',
+        'college': 'AMRT',
+        'phase': 'Testing',
+        'expName': 'OSMOSIS AND DIFFUSION IN CELLS',
+        'expShortName': 'osmosis-diffusion'
+        }];
+    
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-5NMQ9NQ');
+      </script>
+      <!--End Google Tag Manager-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="" name="description">
+    <meta content="" name="author">
+    
+    	<meta name="experiment-short-name" content="osmosis-diffusion">
+    	<meta name="developer-institute" content="AMRT">
+    	<meta name="learning-unit" content="OSMOSIS AND DIFFUSION IN CELLS">
+    	<meta name="task-name" content="Theory">
+    
+    <!-- For iPhone -->
+    <meta name="msapplication-TileColor" content="#4076e0">
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#4076e0">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#4076e0">
+    <title>Virtual Labs</title>
+    <link rel="shortcut icon" href="./assets/images/favicon.ico">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css" integrity="sha512-Oy18vBnbSJkXTndr2n6lDMO5NN31UljR8e/ICzVPrGpSud4Gkckb8yUpqhKuUNoE+o9gAb4O/rAxxw1ojyUVzg==" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&amp;family=Raleway&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/github-markdown.min.css">
+    <link rel="stylesheet" href="./assets/css/vlabs-style.css">
+    <link rel="stylesheet" href="./assets/css/toast.css">
+    <link rel="stylesheet" href="./assets/katex_assets/katex.min.css">
+    
+    <script src="./assets/js/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <style>
+      h1 {
+      font-size: 1.8rem;
+      }
+      h2 {
+      font-size: 1.4rem;
+      }
+      h3 {
+      font-size: 1.2rem;
+      }
+
+      h2, h3 {
+      font-weight: 800;
+      }
+    </style>
+    
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"></head>
+  <body class="p-0 container-fluid vlabs-page d-flex flex-column justify-content-between">
+      <!--Google Tag Manager (noscript)-->
+      <noscript class="gtm">
+        <iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-5NMQ9NQ" style="display:none;visibility:hidden" width="0">
+        </iframe>
+      </noscript>
+      <!--End Google Tag Manager (noscript)-->
+  
+      <header class="vlabs-header sticky-top bg-white">
+        <nav class="p-0 navbar navbar-light d-flex align-items-stretch">
+          
+          <button class="navbar-toggler px-4" type="button" onclick="toggle()">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <div class="d-flex justify-content-center">        
+            <a href="https://vlab.co.in" class="navbar-brand">
+              <img src="./assets/images/vlabs-color-small-moe.jpg" alt="vlabs logo" class="vlabs-logo">
+            </a>
+          </div>
+          
+          <div id="headerNavbar" class="d-none border-top flex-grow-1 d-lg-flex align-items-center justify-content-end">
+            <div class="svc-rating-display">
+                <rating-display spreadsheetid="1x12nhpp0QvnsA6x-O1sV4IA9SAbfVsq_wiexWkutOmU" sheetname="Experiment-Database" columnname="Experiment Short Name" columnvalue="osmosis-diffusion" imagesdirectory="/plugins/svc-rating/images/">
+                </rating-display>
+            </div>      <div class="svc-rating-submit">
+                <rating-submit title="Rate" this="" experiment="">
+                </rating-submit>
+            </div>      <bug-report id="bug-report" title="[BUG REPORT] OSMOSIS AND DIFFUSION IN CELLS" page-type="text" context-info="{&quot;organisation&quot;:&quot;Virtual Labs&quot;,&quot;developer_institute&quot;:&quot;AMRT&quot;,&quot;expname&quot;:&quot;OSMOSIS AND DIFFUSION IN CELLS&quot;,&quot;labname&quot;:&quot;Virtual Lab&quot;,&quot;phase&quot;:&quot;Testing&quot;}" checkbox-json="{&quot;text&quot;:[&quot;Insufficient Content&quot;],&quot;video&quot;:[&quot;Insufficient Content&quot;],&quot;assesment&quot;:[&quot;Incorrect Options&quot;,&quot;Incorrect Answer&quot;,&quot;Incorrect Question&quot;],&quot;assessment&quot;:[&quot;Incorrect Options&quot;,&quot;Incorrect Answer&quot;,&quot;Incorrect Question&quot;],&quot;simulation&quot;:[&quot;Simulation Not Working&quot;,&quot;Incorrect Results/Observations&quot;,&quot;Insufficient/Incorrect Instructions&quot;],&quot;DEFAULT&quot;:[&quot;Page Not Loading&quot;,&quot;Content Not Visible&quot;,&quot;Incorrect Content&quot;]}" button_style="border: none; color: #fff; background-color: #288ec8; text-align: center; font-size: 1.05rem; border-radius: 1em;padding: 0.6em 1.2em; margin: 0 10px" position="override" custom_button_class="v-button"></bug-report>
+          </div>
+        </nav>
+      </header>
+      <div class="container-fluid flex-fill d-flex flex-column vlabs-page-main">
+        <div class="row d-flex justify-content-between">
+          <div class="flex-column">
+          <div class="row py-4 px-4 breadcrumbs">
+          	<div class="title is-4 tools">Tools</div>
+          	<span class="mx-2">
+          		<i aria-hidden="true" class="fa fa-angle-right"></i>
+          	</span>
+          	<a href="performance-report.html" class="my-2 mx-3" target="_blank">
+          		<button class="v-button">Performance Tool</button>
+          	</a>
+          	<a href="validator-report.html" class="my-2 mx-3" target="_blank">
+          		<button class="v-button">Validation Tool</button>
+          	</a>
+          </div>
+          </div>
+        </div>
+        <div class="row flex-grow-1 d-flex flex-nowrap flex-column flex-lg-row">
+          <div class="modal fade popupmenu" id="popupMenu" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">
+                              <a href="https://vlab.co.in" class="navbar-brand">
+                                  <img src="./assets/images/vlabs-color-small-moe.jpg" alt="vlabs logo" class="vlabs-logo">
+                              </a>
+                          </h5>
+                          <button type="button" class="btn-close align-self-center" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body nav-menu">
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="index.html" class="p-2 ">
+                                      Aim
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="theory.html" class="p-2  current-item ">
+                                      Theory
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="pretest.html" class="p-2 ">
+                                      Pretest
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="procedure.html" class="p-2 ">
+                                      Procedure
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="simulation.html" class="p-2 ">
+                                      Simulation
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="posttest.html" class="p-2 ">
+                                      Posttest
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="references.html" class="p-2 ">
+                                      References
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="contributors.html" class="p-2 ">
+                                      Contributors
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="feedback.html" class="p-2 ">
+                                      Feedback
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="nav flex-column sidebar nav-menu flex-shrink-0 px-lg-4 align-items-center align-items-lg-start hidden d-none d-lg-flex" id="menu">
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="index.html" class="p-2 ">
+                        Aim
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="theory.html" class="p-2  current-item ">
+                        Theory
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="pretest.html" class="p-2 ">
+                        Pretest
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="procedure.html" class="p-2 ">
+                        Procedure
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="simulation.html" class="p-2 ">
+                        Simulation
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="posttest.html" class="p-2 ">
+                        Posttest
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="references.html" class="p-2 ">
+                        References
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="contributors.html" class="p-2 ">
+                        Contributors
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="feedback.html" class="p-2 ">
+                        Feedback
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+          </div>          <div class="vlabs-page-content px-5 pb-4 flex-grow-1 markdown-body">
+            <div class="text-center fix-spacing">
+              <h2 id="osmosis-and-diffusion-in-cells">Osmosis and Diffusion in Cells</h2>
+          
+            </div>
+              <h3 id="introduction">Introduction</h3>
+          <p>Cells always interact with their environment to maintain homeostasis (internal balance) to support various cellular processes. A water solution that contains nutrients, wastes, gases, salts, and other substances present around the cells makes up the external environment of the cell. The outer surface of the cell’s plasma membrane is exposed to the external environment, while the inner surface of the cell’s plasma membrane is exposed to the cell’s cytoplasm. Thus, the cell’s plasma membrane is responsible for controlling the substances that enter and leave the cell. The plasma membrane allows certain substances to pass through, but not all. Means the membrane is in a selectively permeable nature. Small molecules may pass through the membrane. The movement of substances in and out of the cell is achieved through various mechanisms. If no energy is required for substances to pass through the membrane, the process is called passive transport.  Osmosis and diffusion are two types of passive transport mechanisms in the membrane. It depends on the concentration gradient of the substances and the semipermeable nature of the cell membrane.</p>
+          <p>&nbsp;</p>
+          <h3 id="osmosis">Osmosis</h3>
+          <p>Osmosis is defined as the passive movement of water molecules across a selectively permeable membrane from an area of higher water concentration to an area of lower water concentration. The process continues until equilibrium is attained between the two solutions. The selectively permeable membrane allows water molecules to pass through while restricting the movement of certain solutes (Fig. 1). Osmosis is important for maintaining the optimal degree of cellular hydration while ensuring the stability of the internal environment.</p>
+          <p>The principle of osmosis is based on the concept of water potential and osmotic pressure. The movement of water molecules through a semipermeable membrane is based on the difference in solute concentration between two solutions. When a semipermeable membrane separates two solutions of different concentrations, water moves from one solution to the other in such a way that the concentration in both solutions becomes equal. The movement of water creates a pressure known as osmotic pressure. It is the force that acts against the flow of water.</p>
+          <p>&nbsp;</p>
+          <p align="center">
+            <img src="images/1.png" title="Osmosis">
+            <br>
+            <i>Figure 1. Diagram illustrating the process of osmosis.
+          </i>
+          </p>
+          
+          <p>&nbsp;</p>
+          <h3 id="osmotic-pressure-and-vant-hoff-equation">Osmotic Pressure and Vant Hoff Equation</h3>
+          <p>Osmotic pressure is a physical property that involves the force exerted by the movement of water across a semipermeable membrane. In biological systems, the movement of water from a region of lower solute concentration (higher water potential) to a region of higher solute concentration (lower water potential) by the process of osmosis continues until equilibrium is achieved or until the pressure exerted by the movement of water balances the difference between the concentrations. This pressure that stops the movement of water is called osmotic pressure.</p>
+          <p>The osmotic pressure can be mathematically expressed by the equation given by Van’t Hoff. This equation relates osmotic pressure to the concentration of the solute particles found in a solution. </p>
+          <p>&nbsp;</p>
+          <p align="center">
+            <img src="images/2.png" title="equation">
+            <br>
+            <i> Where:<br>•    π = Osmotic pressure<br>•    i = Van ’t Hoff factor (number of particles produced when a solute dissolves)<br>•    C = Molar concentration of the solute<br>•    R = Universal gas constant<br>•    T = Absolute temperature (in Kelvin)<br>
+          
+          </i>
+          </p>
+          
+          <p>&nbsp;
+          From the equation, it is evident that osmotic pressure is a function of the number of solute particles found in the solution, the temperature of the system, and the extent to which the solute dissociates into particles when dissolved. Some substances dissociate into ions when they are dissolved in a solution. This dissociation increases the concentration of the solution, hence increasing the osmotic pressure. Sodium chloride is a good example of a substance that dissociates into ions.</p>
+          <p>In biological or physiological systems, the term used to describe osmotic pressure is usually osmolality or osmolarity, which is a measurement of the concentration of all the particles in a solution that exert osmotic pressure. Osmolality is the number of osmoles per kilogram of solvent, whereas osmolarity is the number of osmoles per litre of solution. This helps in measuring the osmotic pressure in a solution and predicting the flow of water across a cell membrane. Osmolality is an important term that is used in a biological context since it can be used to measure the actual number of dissolved particles contributing to osmotic pressure without regard to the composition of the solution. Normally, the osmolality of physiological fluids such as blood plasma ranges between 275 and 295 mOsm/kg. If the osmolality of the extracellular fluid increases, water leaves the cell. This causes the cell to shrink. If the osmolality of the extracellular fluid decreases, the cell swells.</p>
+          <p>&nbsp;</p>
+          <h3 id="tonicity-and-osmotic-conditions-of-a-solution">Tonicity and osmotic conditions of a solution</h3>
+          <p>When a cell is placed in a solution, the direction of water movement is based on the concentration of solutes. The concentration of solutes is referred to as tonicity. Tonicity is a term used to determine the movement of water during osmosis. The movement of water during osmosis is based on the concentration of solutes. The concentration of solutes can be classified as hypotonic, hypertonic, or isotonic.</p>
+          <p><strong>Hypotonic Solution:</strong> A hypotonic solution is a solution whose solute concentration is lower outside the cell membrane compared to the solute concentration inside the cell. This implies that the concentration of water molecules is higher outside the cell. Due to the difference in solute concentration, water enters the cell via osmosis. As water enters the cell, it starts to swell due to increased internal pressure. </p>
+          <p><strong>Isotonic Solution:</strong> An isotonic solution is one in which the concentration of the solute inside the cell is the same as that of the solution outside the cell. In this case, the rate of movement of water molecules into and out of the cell is the same, meaning that no movement of water takes place. The cell will be of normal size and shape since equilibrium is reached inside the cell. Isotonic solutions are very important in the body, for example, in that blood plasma is isotonic with red blood cells, thus preventing them from shrinking or swelling.</p>
+          <p><strong>Hypertonic Solution:</strong> A hypertonic solution is one in which the concentration of solute outside the cell is higher compared to the concentration of solute inside the cell. Therefore, the concentration of water is lower outside the cell. Hence, water is drawn out of the cell by the process of osmosis towards the region with the higher concentration of solute. This results in shrinking or shrinkage of the cell due to the loss of water or dehydration of the cell’s cytoplasm. This phenomenon is referred to as crenation in animal cells, while in plant cells it is referred to as plasmolysis.</p>
+          <p>Osmosis is a crucial process in human physiological processes within the body. It helps to balance fluids within the cells and tissues of the body and ensure that cells are of normal size and shape. Osmosis also occurs in the kidneys, where it helps to ensure the reabsorption of water from the urine. This process helps to balance fluids within the body. Osmosis occurs in the cells of the intestines, helping to ensure the digestion of nutrients. Thus, osmosis is an essential process for the maintenance of fluids within blood plasma.</p>
+          <p>Osmosis has several important applications in both biological and technological fields. In medical science, IV solutions are carefully formulated to be isotonic to blood plasma to avoid damage to red blood cells. Osmosis is also applied in dialysis treatments, in which waste products are removed from the blood by semipermeable filters. In plant biology, osmosis maintains turgor pressure in plant cells. Furthermore, osmosis is employed in water purification equipment such as reverse osmosis technology to clean water for human consumption.</p>
+          <p>&nbsp;</p>
+          <h3 id="diffusion">Diffusion</h3>
+          <p>Diffusion is defined as the process by which molecules tend to move from an area of high concentration to an area of low concentration due to their random motion. The process continues until the molecules are equally distributed. At this point, equilibrium is attained. The process of diffusion can be observed in gases, fluids, and cell membranes. The process does not require energy. In the body, the process of diffusion transports small molecules such as oxygen and carbon dioxide through the cell membrane.</p>
+          <p>The principle that governs the diffusion is the concentration gradient. This is the difference in the concentration of a substance between two points. Molecules always diffuse down their own gradient until equilibrium is achieved. The rate at which diffusion occurs is controlled by several factors, such as the size of the concentration gradient, temperature, surface area, membrane permeability, and the size of the diffusing molecules. Diffusion into the cell membrane is especially relevant for small nonpolar molecules like oxygen (O₂) and carbon dioxide (CO₂) that can pass through the lipid bilayer (Fig.2).</p>
+          <p>&nbsp;</p>
+          <p align="center">
+            <img src="images/3.png" title="Diffusion">
+            <br>
+            <i>Figure 2. Diagram illustrating the process of Diffusion.
+          </i>
+          </p>
+          
+          <p>&nbsp;</p>
+          <h4 id="types-of-diffusion">Types of Diffusion</h4>
+          <p>Diffusion is classified based on how molecules move across membranes and whether transport proteins are involved. In cell physiology and the theory of membrane transport, there are three major classifications of diffusion. This classification is necessary since different molecules have different methods of passing through the cell membrane.</p>
+          <p><strong>Simple Diffusion:</strong> Simple diffusion is the movement of molecules through the cell membrane, which involves the direct passage of the molecules through the cell membrane without the aid of any transport protein. Small, non-polar molecules are capable of simple diffusion, e.g., oxygen, carbon dioxide, etc.</p>
+          <p><strong>Facilitated Diffusion:</strong> Facilitated diffusion is a type of passive transport, which involves the movement of molecules from a region of higher concentration to a region of lower concentration with the aid of a membrane protein, e.g., channel protein or carrier protein. This type of diffusion is essential for the movement of those molecules that cannot pass through the cell membrane, e.g., glucose, ions, etc.</p>
+          <p><strong>Channel-mediated diffusion:</strong> It’s a special type of facilitated diffusion. In facilitated diffusion, the ions or the water molecules pass through the protein channels in the membrane. The protein channels act as pores that allow molecules to pass through the membrane quickly. Some of the channels are known as gated channels. The gates may open or close in response to a signal.</p>
+          <p>&nbsp;</p>
+          <h3 id="mathematical-equation-for-diffusion">Mathematical Equation for Diffusion</h3>
+          <p>The process of diffusion can be quantitatively described by Fick’s Laws of Diffusion. The laws describe how the rate of diffusion depends on concentration gradients and other physical factors.</p>
+          <h4 id="ficks-first-law-of-diffusion">Fick’s First Law of Diffusion</h4>
+          <p>The rate of diffusion in a membrane is proportional to the concentration gradient. The equation is: </p>
+          <p>&nbsp;</p>
+          <p align="center">
+            <img src="images/4.png" title="equation">
+            <br>
+            <i>•    J = diffusion flux (amount of substance diffusing per unit area per unit time)<br>
+          •    D = diffusion coefficient<br>
+          •    dC/dx = concentration gradient<br>
+          •    The negative sign indicates movement from a higher concentration to a lower concentration<br>
+          </i>
+          </p>
+          
+          <p>&nbsp;</p>
+          <p>Fick's first law of diffusion explains the correlation between the rate at which a given material diffuses and the concentration gradient over a given distance. This law explains that the rate at which a diffusing material diffuses is proportional to the concentration gradient. This means that the rate at which the molecules will be diffusing will be faster if the difference in concentration between the two points is larger. This law is most applicable in the explanation of the movement of molecules from one point to another in the body. This law also explains that the rate at which a material diffuses depends on the diffusion coefficient (D) and the distance over which the diffusion occurs. This means that the rate at which the diffusion occurs will be lower if the distance over which the diffusion occurs is larger. Therefore, Fick’s First Law emphasises that diffusion is affected by various factors, including concentration gradient, membrane thickness, membrane surface area, and properties of diffusing molecules, all of which affect the rate of transport of substances in living organisms or physical systems.</p>
+          <p>&nbsp;</p>
+          <h4 id="ficks-second-law-of-diffusion">Fick’s Second Law of Diffusion</h4>
+          <p>Fick’s second law describes how concentration changes with time during diffusion:</p>
+          <p>&nbsp;</p>
+          <p align="center">
+            <img src="images/5.png" title="equation">
+            <br>
+            <i>• C = concentration of the diffusing substance<br>•    t = time<br>•    D = diffusion coefficient<br>•    x = distance<br>
+          </i>
+          </p>
+          
+          <p>&nbsp;</p>
+          <p>Fick’s first law of diffusion discusses the rate of diffusion, while Fick’s second law of diffusion discusses non-steady diffusion, where the concentration gradient is constantly changing with time. The law states that the distribution of molecules in a system will change with time until equilibrium is reached. When a substance starts diffusing, its concentration is not evenly distributed in the given medium, but as time passes, the substance will begin to diffuse, and its concentration will decrease evenly throughout the medium until equilibrium is reached.</p>
+          <p>&nbsp;</p>
+          <h3 id="biological-significance-of-diffusion">Biological Significance of Diffusion</h3>
+          <p>Diffusion is an important physiological process in living organisms. In the respiratory system, oxygen is required for respiration. The oxygen diffuses from the lungs to the bloodstream. Similarly, carbon dioxide is a waste product that diffuses from the bloodstream to the lungs for exhalation. In the tissues of the body, glucose diffuses from the blood vessels to the tissues. Similarly, waste products of metabolism also diffuse from the tissues to the blood vessels. In the body, diffusion is also important for cellular communication. In the cells, the molecules are transported from one cellular compartment to another. This is helpful for metabolic functions.</p>
+          
+          </div>
+          <div class="bug-report-mobile">
+              <bug-report id="bug-report" title="[BUG REPORT] OSMOSIS AND DIFFUSION IN CELLS" page-type="text" context-info="{&quot;organisation&quot;:&quot;Virtual Labs&quot;,&quot;developer_institute&quot;:&quot;AMRT&quot;,&quot;expname&quot;:&quot;OSMOSIS AND DIFFUSION IN CELLS&quot;,&quot;labname&quot;:&quot;Virtual Lab&quot;,&quot;phase&quot;:&quot;Testing&quot;}" checkbox-json="{&quot;text&quot;:[&quot;Insufficient Content&quot;],&quot;video&quot;:[&quot;Insufficient Content&quot;],&quot;assesment&quot;:[&quot;Incorrect Options&quot;,&quot;Incorrect Answer&quot;,&quot;Incorrect Question&quot;],&quot;assessment&quot;:[&quot;Incorrect Options&quot;,&quot;Incorrect Answer&quot;,&quot;Incorrect Question&quot;],&quot;simulation&quot;:[&quot;Simulation Not Working&quot;,&quot;Incorrect Results/Observations&quot;,&quot;Insufficient/Incorrect Instructions&quot;],&quot;DEFAULT&quot;:[&quot;Page Not Loading&quot;,&quot;Content Not Visible&quot;,&quot;Incorrect Content&quot;]}" position="override" button_style="
+                          position: fixed; 
+                          bottom: 20px;
+                          right: 20px;
+                          z-index: 1;
+                          font-size: 0;
+                          padding: 25px;
+                          border-radius: 50%;
+                          border: none;
+                          background-color: #0fc0ff;
+                          background-image: url(data:image/png;base64,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);
+                          background-repeat: no-repeat;
+                          background-position: center;
+                          background-size: 30px;
+                          filter: invert(1);">
+              </bug-report>
+          </div>        </div>
+      </div>
+      <footer class="text-light pt-2 vlabs-footer d-flex flex-column">
+        <div class="row px-5 mx-0">
+          <div class="col d-flex flex-column">
+            <span class="font-weight-bold vlabs-footer-sect-name pb-2 mb-3">Community Links</span>
+            <a href="https://www.sakshat.ac.in/" class="text-light">Sakshat Portal</a>
+            <a href="http://outreach.vlabs.ac.in/" class="text-light">Outreach Portal</a>
+            <a href="https://vlab.co.in/faq" class="text-light">FAQ: Virtual Labs</a>
+          </div>
+          <div class="col d-flex flex-column">
+            <span class="font-weight-bold vlabs-footer-sect-name pb-2 mb-3">Contact Us</span>
+            <span> Phone: General Information: 011-26582050 </span>
+            <span> Email: support@vlabs.ac.in </span>
+          </div>
+          <div class="col d-flex flex-column">
+            <span class="font-weight-bold vlabs-footer-sect-name pb-2 mb-3">Follow Us</span>
+            <div class="social-links">
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #55acee;" href="https://twitter.com/TheVirtualLabs">
+      	  <i class="fab fa-twitter"></i>
+      	</a>
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #3b5998;" href="https://www.facebook.com/Virtual-Labs-IIT-Delhi-301510159983871/">
+      	  <i class="fab fa-facebook"></i>
+      	</a>
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #e52d27;" href="https://www.youtube.com/watch?v=asxRaOgk6a0">
+      	  <i class="fab fa-youtube"></i>
+      	</a>
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #2867B2;" href="https://in.linkedin.com/in/virtual-labs-008ba9136">
+      	  <i class="fab fa-linkedin"></i>
+      	</a>
+            </div>
+          </div>
+        </div>
+        <div class="m-0 py-2 text-center" style="font-family: &quot;Open Sans&quot;, sans-serif; background: #212121;">
+          <a class="text-primary font-weight-bold" href="https://www.gnu.org/licenses/agpl-3.0.en.html"> AGPL 3.0 </a>
+          &nbsp;&amp;&nbsp;
+          <a class="text-primary font-weight-bold" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative Commons (CC BY-NC-SA 4.0) </a>
+        </div>
+      </footer>
+    <script src="./assets/js/toggleSidebar.js"></script>
+    <script src="./assets/js/event-handler.js"></script>
+
+
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+            navigator.serviceWorker.register("sw.js");
+        });
+      }
+    </script>
+  
+
+<script type="module" src="https://cdn.vlabs.ac.in/bug-report/vlabs-bug-report.js"></script><script type="module" src="/exp-osmosis-diffusion-amrt/plugins/svc-rating/index.js"></script><script type="module" src="/exp-osmosis-diffusion-amrt/plugins/svc-rating/config.js"></script><script type="module" src="https://apis.google.com/js/api.js"></script></body></html>

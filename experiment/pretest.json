@@ -3,12 +3,12 @@
   "version": 2.0,
   "questions": [
     {
-          "question": "1. The main function of the nasal cavity in respiration is to:",
+          "question": "1. The structure that primarily regulates diffusion and osmosis in cells:",
       "answers": {
-        "a": "Pump oxygen into the lungs",
-        "b": "Filter, warm, and humidify incoming air",
-        "c": "Produce carbon dioxide",
-        "d": "Exchange gases with blood"
+        "a": "Nucleus",
+        "b": "Cell membrane",
+        "c": "Ribosome",
+        "d": "Golgi apparatus"
       },
  
       "correctAnswer": "b",
@@ -18,12 +18,12 @@
 
 
     {
-      "question": "2. Which organ is mainly responsible for gas exchange in the respiratory system?",
+      "question": "2. In simple diffusion, molecules move across the membrane",
       "answers": {
-        "a": "Trachea",
-        "b": "Bronchi",
-        "c": "Alveoli",
-        "d": "Pharynx"
+        "a": "With the help of ATP energy",
+        "b": "With carrier proteins only",
+        "c": "Directly through the lipid bilayer",
+        "d": "Through active transport pumps"
       },
       
       "correctAnswer": "c",
@@ -33,39 +33,41 @@
 
 
     {
-      "question": "3. Respiratory rate refers to:",
+      "question": "3. A solution that has the same solute concentration as the cell is called:",
       "answers": {
-        "a": "Oxygen concentration in lungs",
-        "b": "Volume of air inhaled per second",
-        "c": "Total lung capacity",
-        "d": "Number of breaths per minute"
+        "a": "Hypertonic",
+        "b": "Isotonic",
+        "c": "Hypotonic",
+        "d": "Saturated"
       },
       
-      "correctAnswer": "d",
-      "difficulty": "beginner"
-    },
-
-    {
-      "question": "4. The right lung has how many lobes?",
-      "answers": {
-        "a": "One",
-        "b": "Two",
-        "c": "Three",
-        "d": "Four"
-      },
-      
-      "correctAnswer": "c",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
 
 
+
     {
-      "question": "5. Which gas is removed from the body during respiration?",
+      "question": "4. Which molecules commonly move across membranes by diffusion?",
       "answers": {
-        "a": "Nitrogen",
-        "b": "Carbon dioxide",
-        "c": "Hydrogen",
-        "d": "Helium"
+        "a": "Oxygen and carbon dioxide",
+        "b": "DNA molecules",
+        "c": "Large proteins",
+        "d": "Starch molecules"
+      },
+      
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+
+
+    {
+      "question": "5. Diffusion is defined as the movement of molecules from:",
+      "answers": {
+        "a": "Lower concentration to higher concentration",
+        "b": "Higher concentration to lower concentration",
+        "c": "Equal concentration to unequal concentration",
+        "d": "Inside the cell to outside the cell"
       },
      
       "correctAnswer": "b",

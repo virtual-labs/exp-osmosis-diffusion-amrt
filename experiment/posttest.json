@@ -3,27 +3,27 @@
   "version": 2.0,
   "questions": [
     {
-          "question": "1. The main function of the nasal cavity in respiration is to:",
+          "question": "1. Osmotic pressure is primarily determined by:",
       "answers": {
-        "a": "Pump oxygen into the lungs",
-        "b": "Filter, warm, and humidify incoming air",
-        "c": "Produce carbon dioxide",
-        "d": "Exchange gases with blood"
+        "a": "Number of solute particles in solution",
+        "b": "Membrane color",
+        "c": "Cell shape",
+        "d": "Number of proteins in cytoplasm"
       },
  
-      "correctAnswer": "b",
+      "correctAnswer": "a",
       "difficulty": "beginner"
     },   
 
 
 
     {
-      "question": "2. Which organ is mainly responsible for gas exchange in the respiratory system?",
+      "question": "2. In biological membranes, which molecules diffuse most easily?",
       "answers": {
-        "a": "Trachea",
-        "b": "Bronchi",
-        "c": "Alveoli",
-        "d": "Pharynx"
+        "a": "Large polar molecules",
+        "b": "Charged ions",
+        "c": "Small nonpolar molecules",
+        "d": "Proteins"
       },
       
       "correctAnswer": "c",
@@ -33,12 +33,12 @@
 
 
     {
-      "question": "3. Respiratory rate refers to:",
+      "question": "3. The driving force of diffusion is:",
       "answers": {
-        "a": "Oxygen concentration in lungs",
-        "b": "Volume of air inhaled per second",
-        "c": "Total lung capacity",
-        "d": "Number of breaths per minute"
+        "a": "ATP hydrolysis",
+        "b": "Electrical stimulation",
+        "c": "Protein synthesis",
+        "d": "Concentration gradient"
       },
       
       "correctAnswer": "d",
@@ -46,29 +46,30 @@
     },
 
     {
-      "question": "4. The right lung has how many lobes?",
+      "question": "4. Facilitated diffusion differs from simple diffusion because it:",
       "answers": {
-        "a": "One",
-        "b": "Two",
-        "c": "Three",
-        "d": "Four"
+        "a": "Requires ATP",
+        "b": "Uses membrane transport proteins",
+        "c": "Moves molecules against the gradient",
+        "d": "Occurs only in plant cells"
       },
       
-      "correctAnswer": "c",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
 
+ 
 
     {
-      "question": "5. Which gas is removed from the body during respiration?",
+      "question": "5. A hypertonic solution causes a cell to:",
       "answers": {
-        "a": "Nitrogen",
-        "b": "Carbon dioxide",
-        "c": "Hydrogen",
-        "d": "Helium"
+        "a": "Swell due to water entry",
+        "b": "Maintain normal size",
+        "c": "Shrink due to water loss",
+        "d": "Divide rapidly"
       },
      
-      "correctAnswer": "b",
+      "correctAnswer": "c",
       "difficulty": "beginner"
     }
   ]

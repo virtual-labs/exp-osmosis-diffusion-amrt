@@ -1,39 +1,75 @@
+
 {
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+          "question": "1. The main function of the nasal cavity in respiration is to:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Pump oxygen into the lungs",
+        "b": "Filter, warm, and humidify incoming air",
+        "c": "Produce carbon dioxide",
+        "d": "Exchange gases with blood"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+ 
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },   
+
+
+
+    {
+      "question": "2. Which organ is mainly responsible for gas exchange in the respiratory system?",
+      "answers": {
+        "a": "Trachea",
+        "b": "Bronchi",
+        "c": "Alveoli",
+        "d": "Pharynx"
       },
-      "correctAnswer": "a",
+      
+      "correctAnswer": "c",
       "difficulty": "beginner"
     },
+
+
+
     {
-      "question": "This is a Sample Question 2?",
+      "question": "3. Respiratory rate refers to:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Oxygen concentration in lungs",
+        "b": "Volume of air inhaled per second",
+        "c": "Total lung capacity",
+        "d": "Number of breaths per minute"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+
+    {
+      "question": "4. The right lung has how many lobes?",
+      "answers": {
+        "a": "One",
+        "b": "Two",
+        "c": "Three",
+        "d": "Four"
       },
+      
       "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+
+
+    {
+      "question": "5. Which gas is removed from the body during respiration?",
+      "answers": {
+        "a": "Nitrogen",
+        "b": "Carbon dioxide",
+        "c": "Hydrogen",
+        "d": "Helium"
+      },
+     
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]
-}
+}	 

@@ -1,39 +1,77 @@
+
 {
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+          "question": "1. The structure that primarily regulates diffusion and osmosis in cells:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Nucleus",
+        "b": "Cell membrane",
+        "c": "Ribosome",
+        "d": "Golgi apparatus"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+ 
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },   
+
+
+
+    {
+      "question": "2. In simple diffusion, molecules move across the membrane",
+      "answers": {
+        "a": "With the help of ATP energy",
+        "b": "With carrier proteins only",
+        "c": "Directly through the lipid bilayer",
+        "d": "Through active transport pumps"
       },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+
+
+
+    {
+      "question": "3. A solution that has the same solute concentration as the cell is called:",
+      "answers": {
+        "a": "Hypertonic",
+        "b": "Isotonic",
+        "c": "Hypotonic",
+        "d": "Saturated"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+
+
+
+    {
+      "question": "4. Which molecules commonly move across membranes by diffusion?",
+      "answers": {
+        "a": "Oxygen and carbon dioxide",
+        "b": "DNA molecules",
+        "c": "Large proteins",
+        "d": "Starch molecules"
+      },
+      
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
+
+
     {
-      "question": "This is a Sample Question 2?",
+      "question": "5. Diffusion is defined as the movement of molecules from:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Lower concentration to higher concentration",
+        "b": "Higher concentration to lower concentration",
+        "c": "Equal concentration to unequal concentration",
+        "d": "Inside the cell to outside the cell"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "c",
+     
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]
-}
+}	 

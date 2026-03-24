@@ -1,0 +1,76 @@
+
+{
+  "version": 2.0,
+  "questions": [
+    {
+          "question": "1. Osmotic pressure is primarily determined by:",
+      "answers": {
+        "a": "Number of solute particles in solution",
+        "b": "Membrane color",
+        "c": "Cell shape",
+        "d": "Number of proteins in cytoplasm"
+      },
+ 
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },   
+
+
+
+    {
+      "question": "2. In biological membranes, which molecules diffuse most easily?",
+      "answers": {
+        "a": "Large polar molecules",
+        "b": "Charged ions",
+        "c": "Small nonpolar molecules",
+        "d": "Proteins"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+
+
+
+    {
+      "question": "3. The driving force of diffusion is:",
+      "answers": {
+        "a": "ATP hydrolysis",
+        "b": "Electrical stimulation",
+        "c": "Protein synthesis",
+        "d": "Concentration gradient"
+      },
+      
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+
+    {
+      "question": "4. Facilitated diffusion differs from simple diffusion because it:",
+      "answers": {
+        "a": "Requires ATP",
+        "b": "Uses membrane transport proteins",
+        "c": "Moves molecules against the gradient",
+        "d": "Occurs only in plant cells"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+
+ 
+
+    {
+      "question": "5. A hypertonic solution causes a cell to:",
+      "answers": {
+        "a": "Swell due to water entry",
+        "b": "Maintain normal size",
+        "c": "Shrink due to water loss",
+        "d": "Divide rapidly"
+      },
+     
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    }
+  ]
+}	 
